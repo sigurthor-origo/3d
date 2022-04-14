@@ -14,5 +14,7 @@ export const Title: FC<ITitle> = ({
   size = "normal",
   children,
 }): JSX.Element => {
-  return <div className={`${titleConfig[size]} font-bold`}>{children}</div>;
+  return (
+    <div className={`${titleConfig[size]} font-bold bg-base`}>{children}</div>
+  );
 };

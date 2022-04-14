@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "tw:build": "npx tailwindcss -i ./src/lib/styles/globals.css -o ./src/lib/styles/tailwind.css -w"
+    "tw:build": "npx tailwindcss -i ./src/lib/styles/globals.css -o ./src/lib/styles/tailwind.css"
   },
   "dependencies": {
     "next": "12.1.4",
